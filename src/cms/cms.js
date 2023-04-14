@@ -28,6 +28,7 @@ if (process.env.BRANCH === "preview") {
 } else {
   CMS.init({
     config: {
+/*
       backend: {
         name: 'gitlab',
         repo: 'michigan-publishing/about-bigten',
@@ -37,6 +38,12 @@ if (process.env.BRANCH === "preview") {
         api_root: 'https://gitlab.umich.edu/api/v4',
         base_url: 'https://gitlab.umich.edu',
         auth_endpoint: 'oauth/authorize'
+      }
+*/
+      backend: {
+        name: 'github',
+        repo: 'sethajoh/test-about-bigten',
+        branch: 'main'
       }
     }
   });
