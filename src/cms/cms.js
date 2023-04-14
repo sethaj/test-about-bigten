@@ -42,7 +42,7 @@ if (process.env.BRANCH === "preview") {
 */
       backend: {
         name: 'github',
-        repo: 'sethajoh/test-about-bigten',
+        repo: 'sethaj/test-about-bigten',
         branch: 'main'
       }
     }
